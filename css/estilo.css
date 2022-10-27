@@ -4,7 +4,7 @@ body {
 }
 /*#info {width:160px; border:thin solid silver; padding:.5em; position:fixed;}*/
 #info {width:100%; border:thin solid silver; padding:.5em; position:fixed; display: flex; justify-content: space-around; align-items: center;}
->>>>>>> refs/remotes/origin/master
+
 #info h1 {margin: 0;}
 
 a {
@@ -19,12 +19,6 @@ h4 {
     color:cadetblue
 }
 
-<<<<<<< HEAD
-.mRaton{
-    display: flex;
-    width: 100%;
-    border: solid;
-=======
 #mRaton{
     display: flex;
     border: thin solid silver;
@@ -107,5 +101,4 @@ h4 {
     width: 100%;
     border-top: thin solid silver;
     justify-content: center;
->>>>>>> refs/remotes/origin/master
 }
