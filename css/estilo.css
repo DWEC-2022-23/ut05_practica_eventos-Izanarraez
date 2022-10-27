@@ -1,9 +1,9 @@
 body {
     font-family: arial, helvetica;
     
-
 }
-#info {width:160px; border:thin solid silver; padding:.5em; position:fixed;}
+/*#info {width:160px; border:thin solid silver; padding:.5em; position:fixed;} */
+#info {width:100%; border:thin solid silver; padding:.5em; position:fixed; display: flex; flex-wrap: wrap; justify-content: space-around;}
 #info h1 {margin: 0;}
 
 a {
@@ -16,4 +16,10 @@ h4 {
     margin: 0;
     padding: 0;
     color:cadetblue
+}
+
+.mRaton{
+    display: flex;
+    width: 100%;
+    border: solid;
 }
