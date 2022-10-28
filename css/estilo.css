@@ -3,9 +3,36 @@ body {
     
 }
 /*#info {width:160px; border:thin solid silver; padding:.5em; position:fixed;}*/
-#info {width:100%; border:thin solid silver; padding:.5em; position:fixed; display: flex; justify-content: space-around; align-items: center;}
+#info {width: 25%; border:thin solid silver; padding:.5em; position:fixed; display: flex; align-items: center; flex-wrap: wrap;}
 
-#info h1 {margin: 0;}
+#info h1 {margin: 0; display: flex; width: 100%; justify-content: center;}
+
+#inf{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    border:thin solid silver;
+    justify-content: center;
+}
+
+#Rn{
+    display: flex;
+    width: 100%;
+    justify-content: row;
+    margin-left: 6%;
+}
+#Rp{
+    display: flex;
+    width: 100%;
+    justify-content: row;
+    margin-left: 6%;
+}
+#Rtxt{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-top: thin solid silver;
+}
 
 a {
     font-weight: 700;
@@ -17,88 +44,4 @@ h4 {
     margin: 0;
     padding: 0;
     color:cadetblue
-}
-
-#mRaton{
-    display: flex;
-    border: thin solid silver;
-    align-items: center;
-    flex-wrap: wrap;
-}
-#mRaton h1{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-#mrn{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-#mrp{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-#txmr{
-    display: flex;
-    width: 100%;
-    border-top: thin solid silver;
-    justify-content: center;
-}
-
-#cRaton{
-    display: flex;
-    border: thin solid silver;
-    align-items: center;
-    flex-wrap: wrap;
-}
-#cRaton h1{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-#crn{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-#crp{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-#txcr{
-    display: flex;
-    width: 100%;
-    border-top: thin solid silver;
-    justify-content: center;
-}
-
-#teclado{
-    display: flex;
-    border: thin solid silver;
-    align-items: center;
-    flex-wrap: wrap;
-}
-#teclado h1{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-#tca{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-#tco{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-#txt{
-    display: flex;
-    width: 100%;
-    border-top: thin solid silver;
-    justify-content: center;
 }
