@@ -1,5 +1,7 @@
-
 window.onmousemove = function r1(event){
+    document.getElementById("Rtxt").innerHTML = '<p id="Rtxt">Se mueve el ratón</p>';
+    document.getElementById("Rtxt").style.borderTop = "none";
+    
     var xn = event.clientX;
     var yn = event.clientY;
 
@@ -7,32 +9,32 @@ window.onmousemove = function r1(event){
     var yp = event.pageY;
 
     let resuNav = "Navegador["+xn+","+yn+"]";
-    let resuPag = "Navegador["+xp+","+yp+"]";
+    let resuPag = "Pagina["+xp+","+yp+"]";
 
-    document.getElementById("mrn").innerHTML = resuNav;
-    document.getElementById("mrp").innerHTML = resuPag;
+    document.getElementById("Rn").innerHTML = resuNav;
+    document.getElementById("Rp").innerHTML = resuPag;
 
-    document.getElementById("crn").innerHTML = resuNav;
-    document.getElementById("crp").innerHTML = resuPag;
-
-    document.getElementById("cRaton").style.background = "white";
+    document.getElementById("inf").style.background = "white";
     document.getElementById("teclado").style.background = "white";
 }
 
 window.onclick = function r2(){
-    document.getElementById("cRaton").style.background = "#FFFFCC";
+    document.getElementById("inf").style.background = "#FFFFCC";
+    document.getElementById("Rtxt").innerHTML = '<p id="Rtxt">Se hace click en el ratón</p>';
+    document.getElementById("Rtxt").style.borderTop = "none";
 }
 
-window.onkeydown = function r2(event){
+window.onkeydown = function r3(event){
     var evKey = event.key;
     var evCod = event.keyCode;
 
     let resuKey = "Carácter["+evKey+"]";
     let resuCod = "Código["+evCod+"]";
 
-    document.getElementById("tca").innerHTML = resuKey;
-    document.getElementById("tco").innerHTML = resuCod;
+    document.getElementById("Rn").innerHTML = resuKey;
+    document.getElementById("Rp").innerHTML = resuCod;
 
-    document.getElementById("teclado").style.background = "#CCE6FF";
+    document.getElementById("inf").style.background = "#CCE6FF";
+    document.getElementById("Rtxt").innerHTML = '<p id="Rtxt">Se pulsa una tecla</p>';
+    document.getElementById("Rtxt").style.borderTop = "none";
 }
-
