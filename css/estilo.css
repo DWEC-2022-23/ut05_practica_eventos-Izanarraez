@@ -1,10 +1,38 @@
 body {
     font-family: arial, helvetica;
     
-
 }
-#info {width:160px; border:thin solid silver; padding:.5em; position:fixed;}
-#info h1 {margin: 0;}
+/*#info {width:160px; border:thin solid silver; padding:.5em; position:fixed;}*/
+#info {width: 25%; border:thin solid silver; padding:.5em; position:fixed; display: flex; align-items: center; flex-wrap: wrap;}
+
+#info h1 {margin: 0; display: flex; width: 100%; justify-content: center;}
+
+#inf{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    border:thin solid silver;
+    justify-content: center;
+}
+
+#Rn{
+    display: flex;
+    width: 100%;
+    justify-content: row;
+    margin-left: 6%;
+}
+#Rp{
+    display: flex;
+    width: 100%;
+    justify-content: row;
+    margin-left: 6%;
+}
+#Rtxt{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-top: thin solid silver;
+}
 
 a {
     font-weight: 700;
